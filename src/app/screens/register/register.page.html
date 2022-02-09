@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card class="card">
+    <ion-img src="../../assets/VSys-OEE-Logo.png"></ion-img>
+    <ion-card-content>
+      <h1>Fill the form correctly</h1>
+      <h3> Sign up to get started! </h3>
+    
+      <form>
+
+        <app-input label = "Name"></app-input>
+        <app-input label = "Email Address"></app-input>
+        <app-input label = "Phone Number" type="number"></app-input>
+        <app-input label = "Password" type = "password"></app-input>
+        <app-input label = "Re-type Password" type = "password"></app-input>
+
+        <app-button label = 'REGISTER'> </app-button>
+      
+      </form>  
+
+        <p class="signup-text"> Already a member? <a routerLink = "#">Sign In</a></p>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
