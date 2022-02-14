@@ -1,0 +1,15 @@
+ion-menu, ion-content {
+   
+
+    .main-header {
+        height: 10vh;
+        width: 120%;
+        background: #e5f0f8;
+        box-shadow: 0 2px 10px (--ion-color-dark);
+    }
+
+    ion-menu-toggle {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
