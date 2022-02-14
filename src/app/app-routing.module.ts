@@ -54,7 +54,8 @@ const routes: Routes = [
   {
     path: 'performance-sheet',
     loadChildren: () => import('./pages/performance-sheet/performance-sheet.module').then( m => m.PerformanceSheetPageModule)
-  }
+  },
+  
 ];
 
 @NgModule({
