@@ -18,6 +18,42 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./screens/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'planner-sheet',
+    loadChildren: () => import('./pages/planner-sheet/planner-sheet.module').then( m => m.PlannerSheetPageModule)
+  },
+  {
+    path: 'charts',
+    loadChildren: () => import('./pages/charts/charts.module').then( m => m.ChartsPageModule)
+  },
+  {
+    path: 'settings',
+    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  },
+  {
+    path: 'operator',
+    loadChildren: () => import('./pages/operator/operator.module').then( m => m.OperatorPageModule)
+  },
+  {
+    path: 'downtime-sheet',
+    loadChildren: () => import('./pages/downtime-sheet/downtime-sheet.module').then( m => m.DowntimeSheetPageModule)
+  },
+  {
+    path: 'quality-sheet',
+    loadChildren: () => import('./pages/quality-sheet/quality-sheet.module').then( m => m.QualitySheetPageModule)
+  },
+  {
+    path: 'operator-sheet',
+    loadChildren: () => import('./pages/operator-sheet/operator-sheet.module').then( m => m.OperatorSheetPageModule)
+  },
+  {
+    path: 'performance-sheet',
+    loadChildren: () => import('./pages/performance-sheet/performance-sheet.module').then( m => m.PerformanceSheetPageModule)
   }
 ];
 

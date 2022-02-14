@@ -32,7 +32,7 @@
               }
             ],
             "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": [],
+            "scripts": ["node_modules/apexcharts/dist/apexcharts.min.js"],
             "aot": false,
             "vendorChunk": true,
             "extractLicenses": false,
@@ -80,7 +80,7 @@
               "browserTarget": "app:build:production"
             },
             "ci": {
-              "progress": false
+              
             }
           }
         },

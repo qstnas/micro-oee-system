@@ -1,20 +1,112 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Dashboard</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button class="bordered" fill="solid" color="light">
+        <ion-icon name="notifications" color="primary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="slides ion-margin-bottom">
+    <ion-slides [options]="slidesOptions">
+      <ion-slide>
+        <ion-card>
+          <ion-card-content class="ion-text-left">
+            <ion-icon class="icon" name="copy-outline" size="large"></ion-icon>
+            <ion-card-title>10</ion-card-title>
+            <p>Availability</p>
+        
+              <ion-button href="#" class="bordered">
+                <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+              </ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <ion-slide>
+        <ion-card>
+          <ion-card-content class="ion-text-left">
+            <ion-icon class="icon" name="search-outline" size="large"></ion-icon>
+            <ion-card-title>10</ion-card-title>
+            <p>Perfomance</p> 
+
+            <ion-button href="#" class="bordered">
+              <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+            </ion-button>
+        </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-content class="ion-text-left">
+            <ion-icon class="icon" name="desktop-outline" size="large"></ion-icon>
+            <ion-card-title>10</ion-card-title>
+            <p>Quality</p>
+        
+              <ion-button href="#" class="bordered">
+                <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+              </ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>    
+    </ion-slides>
   </div>
+
+  <div class="bar-chart"> 
+    <ion-card>
+      <ion-card-content>
+        <p>Overall Perfomance</p>
+          <apx-chart 
+          [chart]="barOptions.chart"
+          [series]="barOptions.series"
+          [stroke]="barOptions.stroke"
+          [markers]="barOptions.markers"
+          [grid]="barOptions.grid"
+          [tooltip]="barOptions.tooltip"
+          [colors]="barOptions.colors" >
+        </apx-chart>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="task">
+    <ion-card>
+      <ion-card-content class="ion-text-left">
+        <ion-card-title>Task in-hand</ion-card-title>
+        
+          <ion-list>
+              <ion-item routerLink="#">
+                <ion-icon name = "calendar-number-outline" slot="start"></ion-icon>
+                <ion-label>Line A</ion-label>
+                <ion-label-subtitle>20/12/2022</ion-label-subtitle>
+              </ion-item>
+          
+              <ion-item routerLink="#">
+                <ion-icon name = "calendar-number-outline" slot="start"></ion-icon>
+                <ion-label>Line B</ion-label>
+                <ion-label-subtitle>12/2/2022</ion-label-subtitle>
+              </ion-item>
+          
+              <ion-item routerLink="#">
+                <ion-icon name = "calendar-number-outline" slot="start"></ion-icon>
+                <ion-label>Line C</ion-label>
+                <ion-label-subtitle>1/2/2022</ion-label-subtitle>
+              </ion-item>
+            </ion-list>
+
+          <ion-button href="#" class="bordered">
+            <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+          </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
 </ion-content>

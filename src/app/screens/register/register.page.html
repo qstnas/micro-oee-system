@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button title=""></ion-back-button>
     <ion-title>Sign Up</ion-title>
+  </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -24,7 +27,8 @@
       
       </form>  
 
-        <p class="signup-text"> Already a member? <a routerLink = "#">Sign In</a></p>
+        <p>Already a member?</p>
+        <ion-button color="primary" size="full" fill="clear" (click)="signIn()">Sign In</ion-button>
 
     </ion-card-content>
   </ion-card>
