@@ -36,10 +36,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
   },
   {
-    path: 'operator',
-    loadChildren: () => import('./pages/operator/operator.module').then( m => m.OperatorPageModule)
-  },
-  {
     path: 'downtime-sheet',
     loadChildren: () => import('./pages/downtime-sheet/downtime-sheet.module').then( m => m.DowntimeSheetPageModule)
   },

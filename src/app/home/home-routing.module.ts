@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+  },
+  {
+    path: 'operator',
+    loadChildren: () => import('./operator/operator.module').then( m => m.OperatorPageModule)
   }
 ];
 
