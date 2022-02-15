@@ -8,10 +8,6 @@ const routes: Routes = [
     component: HomePage,
   },
   {
-    path: 'operator',
-    loadChildren: () => import('./operator/operator.module').then( m => m.OperatorPageModule)
-  },
-  {
     path: 'operator-dashboard',
     loadChildren: () => import('./operator-dashboard/operator-dashboard.module').then( m => m.OperatorDashboardPageModule)
   },

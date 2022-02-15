@@ -25,7 +25,7 @@ ion-content {
     }
 
     ion-card {
-        box-shadow:5px 5px 5px #4621ee, -3px -3px #4621ee;
+        box-shadow:1px 1px 1px #909092, -1px -1px #a2a1a3;
         border-radius: 15px;
         --background: #fff;
         flex: 1 1 21rem;
@@ -59,7 +59,7 @@ ion-content {
 
         ion-card {
             margin-top: 5%;
-            box-shadow:5px 5px 5px #43ee21, -3px -3px #5fec34;
+            box-shadow:1px 1px 1px #909092, -1px -1px #a2a1a3;
             border-radius: 15px;
             --background: #fff;
             flex: 1 1 21rem;
@@ -98,7 +98,7 @@ ion-content {
     .bar-chart {
        
         ion-card {
-        box-shadow:5px 5px 5px #39383a, -3px -3px #636364;
+        box-shadow:1px 1px 1px #39383a, -1px -1px #636364;
         border-radius: 15px;
         --background: #fff;
         flex: 1 1 21rem;
