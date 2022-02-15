@@ -41,33 +41,3 @@
   </ion-menu>
   <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
-
-<!-- <ion-split-pane contentId="main-menu">
-  <ion-menu menuId="main-menu" contentId="main-menu" type="overlay">
-    <ion-content>
-      <ion-list class="ion-text-left main-header">
-        <div>
-          <ion-avatar>
-            <img src="../../assets/VSys-OEE-Logo.png">
-          </ion-avatar>
-        </div>
-      </ion-list>
-      <ion-menu-toggle class="menu-items" [autoHide]="false" 
-      *ngFor="let page of pages; let i =index">
-      <ion-item 
-        *ngIf="!page?.route"
-        color="secondary" 
-        class="ion-padding-start"
-        lines="none"
-        detail="false"
-        [routerLink]="[page.url]"
-        routerDirection="root"
-        routerLinkActive="selected">
-      </ion-item>
-      <ion-icon slot="start"></ion-icon>
-      <ion-labe> {{ page.title }}</ion-labe>
-    </ion-menu-toggle>
-    </ion-content>
-  </ion-menu>
-  <ion-router-outlet id="main-menu"></ion-router-outlet>
-</ion-split-pane> -->
