@@ -51,7 +51,14 @@ const routes: Routes = [
     path: 'performance-sheet',
     loadChildren: () => import('./pages/performance-sheet/performance-sheet.module').then( m => m.PerformanceSheetPageModule)
   },
-  
+  {
+    path: 'operator-dashboard',
+    loadChildren: () => import('./home/operator-dashboard/operator-dashboard.module').then( m => m.OperatorDashboardPageModule)
+  },
+  {
+    path: 'planner-dashboard',
+    loadChildren: () => import('./home/planner-dashboard/planner-dashboard.module').then( m => m.PlannerDashboardPageModule)
+  },
 ];
 
 @NgModule({
