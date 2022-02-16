@@ -112,6 +112,7 @@ ion-content {
         color: #fff;
     
         .slides {
+            margin-top: 10px;
             background: #f1f5f8;
             padding: 4px 10px 20px 10px;
             border-radius: 0 0 20px 20px;
@@ -176,5 +177,20 @@ ion-content {
                             
             }
         }
+
+    .bar-chart {
+       
+        ion-card {
+        border-radius: 15px;
+        --background: #fff;
+        flex: 1 1 20rem;
+        margin: 10px 20px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
 
     }
