@@ -30,7 +30,7 @@ export class HomePage {
   }
 
   slidesOptions = {
-    slidesPerView:1.5
+    slidesPerView:2.5
   }
 
   barChart () {

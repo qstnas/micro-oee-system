@@ -13,9 +13,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<!-- <ion-content>
   <div class="slides ion-margin-bottom">
     <ion-slides [options]="slidesOptions">
+    
       <ion-slide>
         <ion-card>
           <ion-card-content class="ion-text-left">
@@ -109,5 +110,56 @@
     </ion-card>
 
     </div>
+
+</ion-content> -->
+
+<ion-content>
+  <div class="slides ion-margin-bottom">
+    <ion-slides [options]="slidesOptions">
+  
+      <ion-slide>
+        <ion-card class="card-1">
+        <ion-card-content class="ion-text-left">
+        <ion-icon class="icon" name="copy-outline"></ion-icon>
+        <ion-card-title>10</ion-card-title>
+        <p>Availability</p>
+    
+          <ion-button href="#" class="bordered">
+            <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card class="card-2">
+        <ion-card-content class="ion-text-left">
+          <ion-icon class="icon" name="search-outline"></ion-icon>
+          <ion-card-title>10</ion-card-title>
+          <p>Perfomance</p> 
+
+          <ion-button href="#" class="bordered">
+            <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+          </ion-button>
+      </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card class="card-3">
+        <ion-card-content class="ion-text-left">
+          <ion-icon class="icon" name="desktop-outline"></ion-icon>
+          <ion-card-title>10</ion-card-title>
+          <p>Quality</p>
+      
+            <ion-button href="#" class="bordered">
+              <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+            </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>    
+    </ion-slides>
+  </div>
+  
 
 </ion-content>
