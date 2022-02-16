@@ -10,19 +10,36 @@ ion-toolbar{
     --background:rgba(218, 237, 245, 0.979);
 
     .card-1{
-        --background:rgba(191, 102, 224, 0.979); 
+        --background:rgba(59, 155, 214, 0.979); 
+
+        ion-button {
+            --background:rgba(119, 183, 223, 0.979); 
+        }
         }
     
     .card-2{
-        --background:rgba(102, 202, 224, 0.979); 
+        --background: #4169e1; 
+
+        ion-button {
+            --background: #6283e6;
+        }
         }
     
     .card-3{
-        --background:rgba(230, 79, 87, 0.979); 
+        --background: #1e88a5; 
+
+        ion-button {
+            --background: #50acc6; 
+
+        }
         }
 
     .card-4{
-        --background:rgba(65, 221, 102, 0.979); 
+        --background: #fcc200; 
+        ion-button {
+            --background:#f5e077;
+                        
+        }
         }
 
 }
