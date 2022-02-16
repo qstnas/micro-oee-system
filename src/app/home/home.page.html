@@ -178,14 +178,58 @@
     </ion-card>
   </div>
 
-  <!-- <ion-grid>
+  <ion-grid>
     <ion-row>
       <ion-col col-6>
-        <ion-card text-left-padding>
+        <ion-card class="card-task">
+          <ion-card-content class="ion-text-left">
+            <ion-card-title>Task in-hand</ion-card-title>       
+              <ion-list>
+                  <ion-item routerLink="#">
+                    <ion-icon class="icon-1" name = "calendar-number-outline" slot="start"></ion-icon>
+                    <ion-label>Line A</ion-label>
+                    <ion-label-subtitle>20/12/2022</ion-label-subtitle>
+                  </ion-item>
+              
+                  <ion-item routerLink="#">
+                    <ion-icon class="icon-2" name = "calendar-number-outline" slot="start"></ion-icon>
+                    <ion-label>Line B</ion-label>
+                    <ion-label-subtitle>12/2/2022</ion-label-subtitle>
+                  </ion-item>
+              
+                  <ion-item routerLink="#">
+                    <ion-icon class="icon-3" name = "calendar-number-outline" slot="start"></ion-icon>
+                    <ion-label>Line C</ion-label>
+                    <ion-label-subtitle>1/2/2022</ion-label-subtitle>
+                  </ion-item>
+                </ion-list>
 
+                <ion-button href="#" class="bordered">
+                <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+              </ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card class="expired-card">
+          <ion-card-content class="ion-text-left">
+            <ion-card-title>Expired Plan</ion-card-title>       
+              <ion-icon name="bookmark" size="large"></ion-icon>
+                <ion-progress-bar value="0.25"> </ion-progress-bar>
+              <ion-card-subtitle>20 Days</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card class="pro-card">
+          <ion-card-content class="ion-text-left">
+          <ion-card-title>30% Off</ion-card-title>
+          <ion-subtitle>On PRO plan</ion-subtitle>
+        </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>
-   -->
+  </ion-grid>
+ 
 
 </ion-content>
