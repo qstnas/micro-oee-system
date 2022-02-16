@@ -1,5 +1,6 @@
 
 <ion-content class="ion-padding">
+  <form [formGroup]="form">
 
   <ion-card class="card">
     <ion-img src="../../assets/VSys-OEE-Logo.png"></ion-img>
@@ -29,6 +30,8 @@
         <ion-input type="password" formControlName="password"></ion-input>
       </ion-item>
 
+      <ion-button color="primary" size="full" fill="clear" (click)="login()">LOGIN</ion-button>
+
       <!-- <p class="signup-text"> First time User? <br> <a routerLink = "#">Sign Up Here</a></p> -->
       <ion-button color="primary" size="full" fill="clear" (click)="register()">Sign Up Here</ion-button>
       <p class="or-text"> -OR- </p>
@@ -37,5 +40,6 @@
 
     </ion-card-content>
   </ion-card>
+</form>
 
 </ion-content>

@@ -18,6 +18,6 @@ import { LoginPage } from './login.page';
     ReactiveFormsModule,
     // SharedModule
   ],
-  declarations: [LoginPage],
+  declarations: [LoginPage]
 })
 export class LoginPageModule {}

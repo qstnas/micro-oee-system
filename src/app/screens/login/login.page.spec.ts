@@ -33,6 +33,14 @@ describe('LoginPage', () => {
         expect(component.form).not.toBeUndefined();
     })
 
+    it('should go to home on login', () => {
+        spyOn(router, 'navigate');
+
+        component.login();
+
+        expect(router.navigate).toHaveBeenCalledWith(['home']);
+    })
+
     it('should go to register page on register', () => {
         spyOn(router, 'navigate');
 
