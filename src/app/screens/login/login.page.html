@@ -30,9 +30,9 @@
         <ion-input type="password" formControlName="password"></ion-input>
       </ion-item>
 
-      <!-- <ion-button expand="block" [disabled]="!form.valid" (click)="login()">LOGIN</ion-button> -->
+      <ion-button expand="block" [disabled]="!form.valid" (click)="login()">LOGIN</ion-button>
 
-      <!-- <p class="signup-text"> First time User? <br> <a routerLink = "#">Sign Up Here</a></p> -->
+      <h3 class="signup-text"> First time User? </h3>
       <ion-button color="primary" size="full" fill="clear" (click)="register()">Sign Up Here</ion-button>
       <p class="or-text"> -OR- </p>
       <app-icon-button icon = 'logo-google' label = 'Continue with Google'></app-icon-button>
