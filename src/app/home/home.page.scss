@@ -193,4 +193,52 @@ ion-content {
         }
     }
 
+    .card-task {
+
+        ion-card-title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        ion-button {
+            --background:#00b7eb;
+            font-size: small;
+            margin-left:80%;
+            --border-radius:100px;
+            --box-shadow: 3px 3px 5px #d1d1d1;
+        }
+
+        ion-list {
+            margin:0 0 15px 15px;
+
+            ion-label {
+                font-size: 24px;
+                position: relative;
+            }
+        }
+
+        ion-icon {
+            font-size: 30px;
+        }
+    }
+
+    .expired-card {
+
+        ion-progress-bar {
+         margin-bottom: 5px;
+         padding: 5px;
+        }
+
+        ion-card-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        ion-card-subtitle {
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+        }
+    }
+
     }
