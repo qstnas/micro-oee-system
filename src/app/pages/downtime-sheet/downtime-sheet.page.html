@@ -5,9 +5,73 @@
       <ion-title>Operation Jobsheet</ion-title>
     </ion-buttons>
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content>
+  <ion-header-title><h1><b>Downtime Sheet</b></h1></ion-header-title>
 
+    <ion-card>
+      <ion-card-header>
+          <ion-text color="dark"><b>Please fill the form correctly</b></ion-text>
+      </ion-card-header>
+
+      <ion-card-content> 
+        <ion-list>
+        
+          <ion-item>
+            <ion-label>Start Time: </ion-label>
+            <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+              <ion-select-option value="bacon">Bacon</ion-select-option>
+              <ion-select-option value="olives">Black Olives</ion-select-option>
+              <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+              <ion-select-option value="peppers">Green Peppers</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <br>
+        
+          <ion-item>
+            <ion-label>Downtime Period: </ion-label>
+            <ion-input type="Number"></ion-input>
+          </ion-item>
+
+          <br>
+
+          <ion-item>
+            <ion-label>Downtime Problem: </ion-label>
+            <ion-select multiple="true" cancelText="Cancel" okText="Okay">
+              <ion-select-option value="bacon">Crack</ion-select-option>
+              <ion-select-option value="olives">Dented</ion-select-option>
+              <ion-select-option value="xcheese">Machine stopped</ion-select-option>
+              <ion-select-option value="peppers">Error</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <br>
+
+          <ion-item>
+            <ion-label>Department Name: </ion-label>
+            <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+              <ion-select-option value="brown">System Integration</ion-select-option>
+              <ion-select-option value="red">OEE</ion-select-option>
+              <ion-select-option value="blonde">Research & Development</ion-select-option>
+              <ion-select-option value="black">ADaPT</ion-select-option>
+              
+            </ion-select>
+          </ion-item>
+
+        </ion-list>
+
+        <br>
+
+        <ion-button color="danger">Cancel</ion-button> <ion-button color="success">Submit</ion-button>
+   
   
+      </ion-card-content>
+    </ion-card>
+
+
+
+
 </ion-content>
