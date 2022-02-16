@@ -1,0 +1,43 @@
+ion-toolbar{
+    --background:rgba(48, 132, 184, 0.979);
+ }
+
+ ion-title{
+     color: azure;
+ }
+
+ ion-content {
+    --background:rgba(218, 237, 245, 0.979);
+
+    .card-1{
+        --background:rgba(191, 102, 224, 0.979); 
+        }
+    
+    .card-2{
+        --background:rgba(102, 202, 224, 0.979); 
+        }
+    
+    .card-3{
+        --background:rgba(230, 79, 87, 0.979); 
+        }
+
+    .card-4{
+        --background:rgba(65, 221, 102, 0.979); 
+        }
+
+}
+ 
+    ion-card-title{
+        font-size: 18px;
+    }
+
+    ion-button {
+    font-size: small;
+    margin-left: 88%;
+    --border-radius:100px;
+    --background:rgb(0, 87, 236, 0.6);
+    --box-shadow: 3px 3px 5px #d1d1d1;
+    }
+
+
+
