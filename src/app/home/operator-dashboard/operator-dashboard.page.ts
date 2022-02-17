@@ -14,15 +14,15 @@ export class OperatorDashboardPage implements OnInit {
   }
   
   arrow1() {
-    this.router.navigate(['performance-sheet']);
-  }
-
-  arrow2() {
     this.router.navigate(['operator-sheet']);
   }
 
-  arrow3() {
+  arrow2() {
     this.router.navigate(['downtime-sheet']);
+  }
+
+  arrow3() {
+    this.router.navigate(['performance-sheet']);
   }
 
   arrow4() {
