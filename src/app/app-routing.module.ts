@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'planner-dashboard',
     loadChildren: () => import('./home/planner-dashboard/planner-dashboard.module').then( m => m.PlannerDashboardPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./screens/login/login.module').then( m => m.LoginPageModule)
+  },
 ];
 
 @NgModule({
