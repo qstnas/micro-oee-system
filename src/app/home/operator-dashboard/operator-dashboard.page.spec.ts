@@ -25,28 +25,28 @@ describe('OperatorDashboardPage', () => {
     component = fixture.componentInstance;
   }));
 
-  it('ahould go to performance sheet page on arrow1', () => {
+  it('ahould go to operator sheet page on arrow1', () => {
     spyOn(router, 'navigate');
 
     component.arrow1();
 
-    expect(router.navigate).toHaveBeenCalledWith(['performance-sheet']);
+    expect(router.navigate).toHaveBeenCalledWith(['operator-sheet']);
   });
 
-  it('ahould go to operator sheet page on arrow2', () => {
+  it('ahould go to downtime sheet page on arrow2', () => {
     spyOn(router, 'navigate');
 
     component.arrow2();
 
-    expect(router.navigate).toHaveBeenCalledWith(['operator-sheet']);
+    expect(router.navigate).toHaveBeenCalledWith(['downtime-sheet']);
   });
 
-  it('ahould go to downtime sheet page on arrow3', () => {
+  it('ahould go to performance sheet page on arrow3', () => {
     spyOn(router, 'navigate');
 
     component.arrow3();
 
-    expect(router.navigate).toHaveBeenCalledWith(['downtime-sheet']);
+    expect(router.navigate).toHaveBeenCalledWith(['performance-sheet']);
   });
 
   it('ahould go to quality sheet page on arrow4', () => {
