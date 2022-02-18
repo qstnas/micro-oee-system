@@ -12,4 +12,46 @@
 
   <ion-searchbar showCancelButton="focus"></ion-searchbar>
 
+  <ion-card class="card-1"> 
+      <ion-card-title>Part A</ion-card-title>
+      <ion-card-content>
+        <p>Start Date: </p>
+        <ion-grid>
+          <ion-row>
+            <ion-col><p>Hours: </p></ion-col>
+            <ion-col><p>Qty Plan: </p></ion-col>
+          </ion-row>
+        </ion-grid>
+    
+        <ion-button class="bordered" (click)="arrow1()">
+        <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card class="card-2"> 
+    <ion-card-title>Part B</ion-card-title>
+    <ion-card-content>
+      <p>Start Date: </p>
+      <p>Hours: </p>
+      <p>Qty Plan: </p>
+  
+      <ion-button class="bordered" (click)="arrow1()">
+      <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+</ion-card>
+
+<ion-card class="card-3"> 
+  <ion-card-title>Part C</ion-card-title>
+  <ion-card-content>
+    <p>Start Date: </p>
+    <p>Hours: </p>
+    <p>Qty Plan: </p>
+
+    <ion-button class="bordered" (click)="arrow1()">
+    <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+    </ion-button>
+  </ion-card-content>
+</ion-card>
 </ion-content>
