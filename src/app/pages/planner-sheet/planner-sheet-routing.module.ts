@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: PlannerSheetPage
+  },
+  {
+    path: 'list-planner-sheet',
+    loadChildren: () => import('./list-planner-sheet/list-planner-sheet.module').then( m => m.ListPlannerSheetPageModule)
   }
 ];
 
