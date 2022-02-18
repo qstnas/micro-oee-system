@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./screens/login/login.module').then( m => m.LoginPageModule)
   },
+  {
+    path: 'list-planner-sheet',
+    loadChildren: () => import('./pages/planner-sheet/list-planner-sheet.module').then( m => m.ListPlannerSheetPageModule)
+  },
 ];
 
 @NgModule({
