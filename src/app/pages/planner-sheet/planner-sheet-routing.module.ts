@@ -11,7 +11,7 @@ const routes: Routes = [
   {
     path: 'list-planner-sheet',
     loadChildren: () => import('./list-planner-sheet/list-planner-sheet.module').then( m => m.ListPlannerSheetPageModule)
-  }
+  },
 ];
 
 @NgModule({

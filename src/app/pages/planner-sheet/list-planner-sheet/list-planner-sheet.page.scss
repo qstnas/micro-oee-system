@@ -1,0 +1,20 @@
+ion-header{
+
+    ion-toolbar,ion-item {
+        --background:rgba(48, 132, 184, 0.979);
+        font-size: 24px;
+        
+    }
+
+    ion-toolbar {
+        .bordered {
+            --border-radius: 10px;
+            --box-shadow:5px 5px 10px #d1d1d1;
+        }
+    }
+
+    ion-menu-button {
+        color: azure;
+    }
+        
+}
