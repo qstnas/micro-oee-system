@@ -33,27 +33,5 @@ describe('OperatorDashboardPage', () => {
     expect(router.navigate).toHaveBeenCalledWith(['operator-sheet']);
   });
 
-  it('ahould go to downtime sheet page on arrow2', () => {
-    spyOn(router, 'navigate');
 
-    component.arrow2();
-
-    expect(router.navigate).toHaveBeenCalledWith(['downtime-sheet']);
-  });
-
-  it('ahould go to performance sheet page on arrow3', () => {
-    spyOn(router, 'navigate');
-
-    component.arrow3();
-
-    expect(router.navigate).toHaveBeenCalledWith(['performance-sheet']);
-  });
-
-  it('ahould go to quality sheet page on arrow4', () => {
-    spyOn(router, 'navigate');
-
-    component.arrow4();
-
-    expect(router.navigate).toHaveBeenCalledWith(['quality-sheet']);
-  });
 });
