@@ -41,7 +41,7 @@ const routes: Routes = [
   },
   {
     path: 'operator-sheet',
-    loadChildren: () => import('./pages/operator-sheet/operator-sheet.module').then( m => m.OperatorSheetPageModule)
+    loadChildren: () => import('./pages/operator-sheet_list-planner-sheet/operator-sheet.module').then( m => m.OperatorSheetPageModule)
   },
   {
     path: 'performance-sheet',
