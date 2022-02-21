@@ -1,8 +1,57 @@
-<ion-header class="ion-no-border">
+<ion-header>
   <ion-toolbar>
-    <ion-title></ion-title>
+    <ion-title color="light">Operator Jobsheet</ion-title>
     <ion-buttons slot="start">
-      <ion-menu-button menu="operator-menu"></ion-menu-button>
+      <ion-menu-button menu="planner-menu"></ion-menu-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
+<ion-content>
+  <ion-header-title><h1><b>List Planner Sheet</b></h1></ion-header-title>
+
+  <ion-searchbar showCancelButton="focus"></ion-searchbar>
+
+  <ion-card class="card-1"> 
+      <ion-card-title>Part A</ion-card-title>
+      <ion-card-content>
+        <p>Start Date: </p>
+        <ion-grid>
+          <ion-row>
+            <ion-col><p>Hours: </p></ion-col>
+            <ion-col><p>Qty Plan: </p></ion-col>
+          </ion-row>
+        </ion-grid>
+    
+        <ion-button class="bordered" (click)="arrow1()">
+        <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card class="card-2"> 
+    <ion-card-title>Part B</ion-card-title>
+    <ion-card-content>
+      <p>Start Date: </p>
+      <p>Hours: </p>
+      <p>Qty Plan: </p>
+  
+      <ion-button class="bordered" (click)="arrow1()">
+      <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+</ion-card>
+
+<ion-card class="card-3"> 
+  <ion-card-title>Part C</ion-card-title>
+  <ion-card-content>
+    <p>Start Date: </p>
+    <p>Hours: </p>
+    <p>Qty Plan: </p>
+
+    <ion-button class="bordered" (click)="arrow1()">
+    <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+</ion-content>
