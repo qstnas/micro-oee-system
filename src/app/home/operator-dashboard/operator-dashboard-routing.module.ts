@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: OperatorDashboardPage
+  },
+  {
+    path: 'operator-menu',
+    loadChildren: () => import('./operator-menu/operator-menu.module').then( m => m.OperatorMenuPageModule)
   }
 ];
 
