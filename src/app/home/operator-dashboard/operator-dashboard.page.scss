@@ -1,2 +1,16 @@
+ion-toolbar{
+    --background:rgba(48, 132, 184, 0.979);
+
+    ion-menu-button{
+        color: #fff;
+    }
+ }
+
+ ion-title{
+     color: azure;
+ }
+ ion-content {
+    --background:rgba(218, 237, 245, 0.979);
+ }
 
 
