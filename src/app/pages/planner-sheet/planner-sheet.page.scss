@@ -23,9 +23,12 @@ ion-content {
     --background: #f1f5f8;
 
     ion-header-title {
-        margin-left: 25px;
-        font-size: 30px;
+
+        h1 {
+        margin-left: 4%;
+        font-size: 45px;
         font-weight: 600;
+        }
     }
 
     ion-card {
