@@ -23,9 +23,11 @@ ion-content {
     --background:rgba(218, 237, 245, 0.979);
 
     ion-header-title {
-        margin-left: 15px;
-        font-size: 30px;
-        font-weight: 400;
+        
+        h1{
+            font-size: 45px;
+            margin-left: 4%;
+          }
     }
 
     ion-searchbar {
