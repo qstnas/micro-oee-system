@@ -12,46 +12,71 @@
 
   <ion-searchbar showCancelButton="focus"></ion-searchbar>
 
-  <ion-card class="card-1"> 
-      <ion-card-title>Part A</ion-card-title>
-      <ion-card-content>
-        <p>Start Date: </p>
-        <ion-grid>
-          <ion-row>
-            <ion-col><p>Hours: </p></ion-col>
-            <ion-col><p>Qty Plan: </p></ion-col>
-          </ion-row>
-        </ion-grid>
-    
-        <ion-button class="bordered" (click)="arrow1()">
-        <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
-        </ion-button>
-      </ion-card-content>
-  </ion-card>
 
-  <ion-card class="card-2"> 
-    <ion-card-title>Part B</ion-card-title>
+<ion-card class="card-1">
+  <ion-card-header>
+    <ion-card-title><h1><b>Part A</b></h1></ion-card-title><br>
+
     <ion-card-content>
-      <p>Start Date: </p>
-      <p>Hours: </p>
-      <p>Qty Plan: </p>
+      <p>Start Date:</p>
+      <ion-grid>
+        <ion-row>
+          <ion-col><p>Hours: </p></ion-col>
+          <ion-col><p>Qty Plan: </p></ion-col>
+        </ion-row>
+      </ion-grid>
   
       <ion-button class="bordered" (click)="arrow1()">
       <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
       </ion-button>
     </ion-card-content>
+
+  </ion-card-header>
 </ion-card>
 
-<ion-card class="card-3"> 
-  <ion-card-title>Part C</ion-card-title>
-  <ion-card-content>
-    <p>Start Date: </p>
-    <p>Hours: </p>
-    <p>Qty Plan: </p>
+<ion-card class="card-2">
+  <ion-card-header>
+    <ion-card-title><h1><b>Part B</b></h1></ion-card-title><br>
 
-    <ion-button class="bordered" (click)="arrow1()">
-    <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
-    </ion-button>
-  </ion-card-content>
+    <ion-card-content>
+      <p>Start Date:</p>
+      <ion-grid>
+        <ion-row>
+          <ion-col><p>Hours: </p></ion-col>
+          <ion-col><p>Qty Plan: </p></ion-col>
+        </ion-row>
+      </ion-grid>
+  
+      <ion-button class="bordered" (click)="arrow2()">
+      <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+
+  </ion-card-header>
 </ion-card>
+
+<ion-card class="card-3">
+  <ion-card-header>
+    <ion-card-title><h1><b>Part C</b></h1></ion-card-title><br>
+
+    <ion-card-content>
+      <p>Start Date:</p>
+      <ion-grid>
+        <ion-row>
+          <ion-col><p>Hours: </p></ion-col>
+          <ion-col><p>Qty Plan: </p></ion-col>
+        </ion-row>
+      </ion-grid>
+  
+      <ion-button class="bordered" (click)="arrow3()">
+      <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+
+  </ion-card-header>
+</ion-card>
+
+
+
+
 </ion-content>
