@@ -12,35 +12,33 @@
 
   <ion-searchbar showCancelButton="focus"></ion-searchbar>
 
+  <ion-card class="card-1">
+    <ion-card-header>
+      <ion-card-title><h1><b>Part A</b></h1></ion-card-title><br>
+      <ion-badge color="danger">OVERDUE</ion-badge>
+  
+      <ion-card-content>
+        <p>Start Date:</p>
+        <ion-grid>
+          <ion-row>
+            <ion-col><p>Hours: </p></ion-col>
+            <ion-col><p>Qty Plan: </p></ion-col>
+          </ion-row>
+        </ion-grid>
+    
+        <ion-button class="bordered" (click)="arrow2()">
+        <ion-icon slot="icon-only" name="chevron-forward-outline"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+  
+    </ion-card-header>
+  </ion-card>
 
-<ion-card class="card-1">
-  <ion-card-header>
-    <ion-card-title><h1><b>Part A</b></h1></ion-card-title><br>
 
-    <ion-card-content>
-      <p>Start Date:</p>
-
-      <ion-grid>
-        <ion-row>
-          <ion-col><p>Hours: </p></ion-col>
-          <ion-col></ion-col>
-          <ion-col></ion-col>
-          <ion-col><p>Qty Plan: </p></ion-col>
-          <ion-col>
-            <ion-button class="bordered" (click)="arrow1()">
-            <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
-            </ion-button>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
   
       <!-- <ion-button class="bordered" (click)="arrow1()">
       <ion-icon slot="icon-only" name="arrow-redo"></ion-icon>
       </ion-button> -->
-    </ion-card-content>
-
-  </ion-card-header>
-</ion-card>
 
 <ion-card class="card-2">
   <ion-card-header>
@@ -82,8 +80,7 @@
     </ion-card-content>
 
   </ion-card-header>
-</ion-card>
-
+</ion-card>>
 
 
 
