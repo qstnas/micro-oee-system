@@ -14,6 +14,8 @@ ion-toolbar{
     --background:rgba(218, 237, 245, 0.979);
 
     h1 {
+        padding: 0px;
+        margin: 0px;
         color:black;
         font-size: 45px;
         margin-left: 4%;
@@ -21,11 +23,9 @@ ion-toolbar{
     }
 
     .operator-sheet {
-        
-        h2 {
-            font-size: 24px;
-            color: black;
-            font-weight: 300;
+        font-size: 24px;
+        color: black;
+        font-weight: 300;
         }
 
         .part {
@@ -34,9 +34,94 @@ ion-toolbar{
             color:rgb(51, 48, 48);
         }
 
+        .perfomance-sheet {
+            margin-left: 15px;
 
+            ion-button {
+               --background:none;
+               color: green;
+               border-radius: 10px;
+               border-style: solid;
+               --border-color: green;
+            }
+ 
+            ion-card {
+                --background-color: none;
+                margin: 5px;
+                padding: 5px;
+                border-style: solid;
+                border-color: #9400d3;
+    
+                ion-button {
+                    --background:#9400d3;
+                    color: #fff;
+                    --border-radius:100px;
+                    --box-shadow: 3px 3px 5px #d1d1d1;
+                    margin-left: 70%;
+                }
+            }
+        }
 
+        .quality-sheet {
+            margin-left: 15px;
+
+            ion-button {
+               --background:none;
+               color: green;
+               border-radius: 10px;
+               border-style: solid;
+               --border-color: green;
+            }
+    
+            ion-card {
+                --background-color: none;
+                color:rgb(51, 48, 48);
+                margin: 5px;
+                padding: 5px;
+                border-style: solid;
+                border-color: #4169e1;
+    
+                ion-button {
+                    --background:#4169e1;
+                    color: #fff;
+                    --border-radius:100px;
+                    --box-shadow: 3px 3px 5px #d1d1d1;
+                    margin-left: 70%;
+                }
+            }
+        }
+
+        .downtime-sheet {
+            margin-left: 15px;
+
+            ion-button {
+               --background:none;
+               color: green;
+               border-radius: 10px;
+               border-style: solid;
+               --border-color: green;
+            }
+    
+            ion-card {
+                --background-color: none;
+                color:rgb(51, 48, 48);
+                margin: 5px;
+                padding: 5px;
+                border-style: solid;
+                border-color: #ffa500;
+    
+                ion-button {
+                    --background:#ffa500;
+                    color: #fff;
+                    --border-radius:100px;
+                    --box-shadow: 3px 3px 5px #d1d1d1;
+                    margin-left: 70%;
+                }
+            }
+        }
     }
- }
+    
+   
+    
 
 
