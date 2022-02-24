@@ -7,6 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { OperatorMenuPageRoutingModule } from './operator-menu-routing.module';
 
 import { OperatorMenuPage } from './operator-menu.page';
+import { RouterModule } from '@angular/router';
+
+
 
 @NgModule({
   imports: [

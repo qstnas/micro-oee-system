@@ -1,7 +1,8 @@
-<ion-app>
-  <ion-menu menuId="planner-menu" content-id="planner-main">
-    <ion-list class="ion-text-left main-header">
-      <div>
+<ion-split-pane>
+  <ion-app>
+    <ion-menu menuId="planner-menu" content-id="planner-main">
+      <ion-list class="ion-text-left main-header">
+        <div>
         <ion-avatar>
           <img src="../../assets/VSys-OEE-Logo.png">
         </ion-avatar>
@@ -39,63 +40,7 @@
       </ion-list>
     </ion-content>
    </ion-menu>
-  <ion-router-outlet id="planner-main"></ion-router-outlet>
-</ion-app>
+   <ion-router-outlet id="planner-main"></ion-router-outlet>
+  </ion-app>
+<ion-split-pane>
 
-<!-- <ion-app>
-  <ion-menu menuId="operator-menu" content-id="operator-main">
-    <ion-list class="ion-text-left main-header">
-      <div>
-        <ion-avatar>
-          <img src="../../assets/VSys-OEE-Logo.png">
-        </ion-avatar>
-      </div>
-    </ion-list>
-    <ion-content>
-      <ion-list>
-        <ion-menu-toggle>
-          <ion-item routerLink="/operator-dashboard">
-            <ion-icon name = "home-outline" slot="start"></ion-icon>
-            <ion-label>Home</ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-
-        <ion-menu-toggle>
-          <ion-item routerLink="/operator-sheet">
-            <ion-icon name = "folder-outline" slot="start"></ion-icon>
-            <ion-label>List Planner Sheet</ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-      
-        <ion-menu-toggle>
-          <ion-item routerLink="/performance-sheet">
-            <ion-icon name = "folder-outline" slot="start"></ion-icon>
-            <ion-label>Perfomance Sheet</ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-      
-        <ion-menu-toggle>
-          <ion-item routerLink="/quality-sheet">
-            <ion-icon name = "folder-outline" slot="start"></ion-icon>
-            <ion-label>Quality Sheet</ion-label>
-          </ion-item>
-        </ion-menu-toggle>
-        
-        <ion-menu-toggle>
-          <ion-item routerLink="/downtime-sheet">
-            <ion-icon name = "folder-outline" slot="start"></ion-icon>
-            <ion-label>Downtime Sheet</ion-label>
-          </ion-item>
-        </ion-menu-toggle>     
-
-        <ion-menu-toggle>
-          <ion-item routerLink="/settings">
-            <ion-icon name = "settings-outline" slot="start"></ion-icon>
-            <ion-label>Settings</ion-label>
-          </ion-item>
-        </ion-menu-toggle>     
-      </ion-list>
-    </ion-content>
-  </ion-menu>
-  <ion-router-outlet id="operator-main"></ion-router-outlet>
-</ion-app> -->
