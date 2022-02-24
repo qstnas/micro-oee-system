@@ -4,6 +4,10 @@ ion-toolbar{
     ion-menu-button{
         color: #fff;
     }
+
+    .toggle {
+        --border-radius: 100px;
+    }
  }
 
  ion-title{
